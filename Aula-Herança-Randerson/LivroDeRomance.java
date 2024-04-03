@@ -5,7 +5,5 @@ public class LivroDeRomance extends Livro{
         super(Nome, Autor, NumeroPagina);
         this.CategoriaRomance = "Romance";
     }
-    public void monstargenerodolivro(){
-        System.out.println("Genero: " + CategoriaRomance);
-    }
+    
 }

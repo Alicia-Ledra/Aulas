@@ -5,7 +5,5 @@ public class LivroDeFiccao extends Livro{
         super(Nome, Autor, NumeroPagina);
         this.CategoriaFiccao = "Ficção";
     }
-    public void monstargenerodolivro(){
-        System.out.println("Genero: " + CategoriaFiccao);
-    }
+    
 }
