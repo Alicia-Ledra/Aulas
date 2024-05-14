@@ -13,13 +13,13 @@ public class SimpleGUI extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
-        // Criando um rótulo
+        // Criando um texto para janela
         label = new JLabel("Janela Interativa!!!");
         label.setHorizontalAlignment(SwingConstants.CENTER);
         add(label, BorderLayout.CENTER);
 
 
-        // Criando um botão
+        // Criando um botão e frase para o botão
         button = new JButton("Clique no botão");
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
